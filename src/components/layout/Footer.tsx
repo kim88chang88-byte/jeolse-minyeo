@@ -13,7 +13,7 @@ export default function Footer() {
     <footer className="border-t bg-muted/30 mt-20">
       <div className="mx-auto max-w-6xl px-4 py-12 grid grid-cols-1 md:grid-cols-3 gap-8">
         <div>
-          <p className="text-xl font-bold text-amber-500">절세미녀</p>
+          <p className="text-xl font-bold text-amber-500">절세가인</p>
           <p className="mt-2 text-sm text-muted-foreground">
             세금, 어렵지 않아요.
             <br />
@@ -56,7 +56,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="border-t py-4 text-center text-xs text-muted-foreground">
-        © 2026 절세미녀. 본 서비스는 정보 제공 목적이며 세무·법률 자문이 아닙니다.
+        © 2026 절세가인. 본 서비스는 정보 제공 목적이며 세무·법률 자문이 아닙니다.
       </div>
     </footer>
   )

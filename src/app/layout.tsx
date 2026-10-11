@@ -15,13 +15,13 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: '절세미녀 — 나에게 딱 맞는 절세 꿀팁',
+  title: '절세가인 — 나에게 딱 맞는 절세 꿀팁',
   description:
-    '절세미녀와 함께 쉽고 재미있게 세금을 줄이세요. 나이, 직업, 수입에 맞는 맞춤형 절세 팁을 전수해드립니다.',
+    '절세가인과 함께 쉽고 재미있게 세금을 줄이세요. 나이, 직업, 수입에 맞는 맞춤형 절세 팁을 전수해드립니다.',
   keywords: ['절세', '세금', '연말정산', 'IRP', 'ISA', '세금환급', '절세팁'],
   openGraph: {
-    title: '절세미녀 — 나에게 딱 맞는 절세 꿀팁',
-    description: '절세미녀와 함께 쉽고 재미있게 세금을 줄이세요.',
+    title: '절세가인 — 나에게 딱 맞는 절세 꿀팁',
+    description: '절세가인과 함께 쉽고 재미있게 세금을 줄이세요.',
     type: 'website',
     locale: 'ko_KR',
   },

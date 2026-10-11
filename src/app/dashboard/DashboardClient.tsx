@@ -28,7 +28,7 @@ export default function DashboardClient({ allTips }: { allTips: Tip[] }) {
   const [tips, setTips] = useState<Tip[]>([])
 
   useEffect(() => {
-    const stored = localStorage.getItem('jeolseminyeo_profile')
+    const stored = localStorage.getItem('jeolsegain_profile')
     if (stored) {
       const p = JSON.parse(stored) as UserProfile
       setProfile(p)

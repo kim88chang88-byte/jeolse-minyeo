@@ -75,7 +75,7 @@ export default function LandingPage() {
             🌟 무료 맞춤 절세 진단
           </Badge>
           <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight mb-6">
-            <span className="text-amber-500">절세미녀</span>가<br />
+            <span className="text-amber-500">절세가인</span>가<br />
             세금 걱정 덜어드려요
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground mb-8 leading-relaxed">

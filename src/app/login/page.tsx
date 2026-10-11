@@ -30,7 +30,7 @@ export default function LoginPage() {
       <Card className="w-full max-w-sm">
         <CardHeader className="text-center">
           <div className="text-4xl mb-2">✨</div>
-          <CardTitle className="text-2xl">절세미녀에 오신 것을 환영해요</CardTitle>
+          <CardTitle className="text-2xl">절세가인에 오신 것을 환영해요</CardTitle>
           <CardDescription>
             로그인하면 나에게 맞는 절세 팁을 저장하고 관리할 수 있어요.
           </CardDescription>

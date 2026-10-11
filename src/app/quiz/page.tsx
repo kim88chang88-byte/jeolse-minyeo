@@ -99,7 +99,7 @@ export default function QuizPage() {
     }
 
     // 비로그인 시에도 localStorage에 저장
-    localStorage.setItem('jeolseminyeo_profile', JSON.stringify(profile))
+    localStorage.setItem('jeolsegain_profile', JSON.stringify(profile))
     router.push('/dashboard')
   }
 

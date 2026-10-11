@@ -26,7 +26,7 @@ export default function Header() {
     <header className="sticky top-0 z-50 border-b bg-background/80 backdrop-blur-sm">
       <div className="mx-auto max-w-6xl px-4 h-16 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
-          <span className="text-2xl font-bold text-amber-500">절세미녀</span>
+          <span className="text-2xl font-bold text-amber-500">절세가인</span>
           <span className="hidden sm:inline text-xs text-muted-foreground">
             절세의 아름다움
           </span>

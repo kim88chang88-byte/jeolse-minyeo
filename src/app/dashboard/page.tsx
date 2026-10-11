@@ -4,7 +4,7 @@ import { getAllTips } from '@/lib/tips'
 import type { Tip } from '@/types'
 
 export const metadata: Metadata = {
-  title: '나의 절세 대시보드 — 절세미녀',
+  title: '나의 절세 대시보드 — 절세가인',
 }
 
 export default function DashboardPage() {
