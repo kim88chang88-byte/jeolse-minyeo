@@ -48,9 +48,22 @@
   --radius-4xl: calc(var(--radius) * 2.6);
 }
 
+/* ── 절세가인 design.md 토큰 ── */
 :root {
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
+  --jg-gold-primary:  #D97706;
+  --jg-gold-deep:     #B45309;
+  --jg-gold-darkest:  #78350F;
+  --jg-gold-light:    #FEF3C7;
+  --jg-emerald-hero:  #064E3B;
+  --jg-emerald-primary: #047857;
+  --jg-emerald-light: #D1FAE5;
+  --jg-surface-ivory: #F9F9FF;
+  --jg-surface-dim:   #D3DAEF;
+  --jg-text-primary:  #1A1A2E;
+  --jg-dark-bg:       #0F172A;
+
+  --background: oklch(0.993 0.002 80);   /* surface-ivory 근사 */
+  --foreground: oklch(0.13 0.02 260);    /* text-primary 근사 */
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.145 0 0);
   --popover: oklch(1 0 0);
@@ -123,8 +136,14 @@
   }
   body {
     @apply bg-background text-foreground;
+    background-color: var(--jg-surface-ivory);
+    color: var(--jg-text-primary);
   }
   html {
     @apply font-sans;
+  }
+  h1, h2, h3, h4 {
+    font-family: 'Noto Serif KR', 'Georgia', serif;
+    color: var(--jg-text-primary);
   }
 }
